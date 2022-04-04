@@ -38,18 +38,18 @@ beers = Beer.create([
     }
 ])
 
-# Style.create([
-#     {
-#         served: "Cold with lemon or lime wedge",
-#         appetizers: "Chicken wings with sweet glaze, or tacos",
-#         beer_id: beers.first.id,
-#         user_id: philip.id
-#     },
+Style.create([
+    {
+        served: "Cold with lemon or lime wedge",
+        appetizers: "Chicken wings with sweet glaze, or tacos",
+        beer_id: beers.first.id,
+        user_id: philip.id
+    },
 
-#     {
-#         served: "Chilled with a few ice cubes",
-#         appetizers: "Pies, Cobblers, or Vanilla Ice-cream",
-#         beer_id: beers.second.id,
-#         user_id: beverly.id
-#     }
-# ])
+    {
+        served: "Chilled with a few ice cubes",
+        appetizers: "Pies, Cobblers, or Vanilla Ice-cream",
+        beer_id: beers.second.id,
+        user_id: beverly.id
+    }
+])
